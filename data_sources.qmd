@@ -1,0 +1,12 @@
+# Data Sources
+
+Here in the lab, we do a lot of work that requires pulling together many data sets. Rather than have what data we used when and where lost to the sands of time, here are some of our favorite data sources (repos, data sets, etc) to use for a variety of purposes.
+
+## General Sources
+[PANGEA](https://www.pangaea.de/) - PANGAEA is hosted by the Alfred Wegener Institute, Helmholtz Center for Polar and Marine Research (AWI) and the Center for Marine Environmental Sciences, University of Bremen (MARUM).
+
+## Temperature
+
+## Depth
+
+## Light

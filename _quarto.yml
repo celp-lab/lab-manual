@@ -1,0 +1,45 @@
+project:
+  type: book
+
+book:
+  title: "CELP Lab Manual"
+  author: "Jarrett Byrnes"
+  date: "11/12/2025"
+  chapters:
+    - index.qmd
+    - mission.qmd
+    - statement_of_land.qmd
+    - our_lab_in_a_nutshell.qmd
+    - code_of_conduct.qmd
+    - onboarding_and_resources.qmd
+    - offboarding.qmd
+    - funding.qmd
+    - lab_communication.qmd
+    - undergrads_reus_and_more.qmd
+    - graduate_students.qmd
+    - postdocs.qmd
+    - lab_pi.qmd
+    - general_field_work_policies.qmd
+    - diving.qmd
+    - boating.qmd
+    - intertidal_and_marsh.qmd
+    - data_sources.qmd
+    - computing_resources.qmd
+    - authorship.qmd
+    - data_management.qmd
+    - grants.qmd
+    - places_we_eat.qmd
+    - useful_links.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - united
+      - brand
+    email-obfuscation: javascript
+
+  pdf:
+    documentclass: scrreprt
+
