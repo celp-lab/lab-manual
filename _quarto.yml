@@ -8,8 +8,8 @@ book:
   date: "11/12/2025"
   chapters:
     - index.qmd
-    - mission.qmd
     - statement_of_land.qmd
+    - mission.qmd
     - our_lab_in_a_nutshell.qmd
     - code_of_conduct.qmd
     - onboarding_and_resources.qmd
