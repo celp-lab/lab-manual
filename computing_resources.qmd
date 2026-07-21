@@ -31,6 +31,26 @@ Each main directory follows the same structure. At the top-level, there should b
 
 Within a project folder, organize as needed. There should also be a `Readme.md` written in markdown that describes what is in each subfolder. Each sub-folder should follow a logical order with a descriptive name and have it's own `Readme.md` that describes what is inside of it. This is not done to be annoying, but rather to make sure there is a record of what is there. This information will be moved to archive as well, and we want to make sure we have full documentation of what files and directories are, any naming conventions, and as much descriptive metadata as possible. 
 
+So, this will end up looking something like
+
+```
+Archived
+ |
+ | - Readme.md - this will have information about what is in ALL subdirectories. Detailed
+ |
+ |- Project 1 (e.g., Living Seawalls)
+    |
+    | - Readme.md - a list of what all survey or other subfolders are and what infromation is in them
+    |
+    |- Survey 1 (e.g., 20260615_Condor_East_Videos)
+    |
+    |- Readme.md - A manifest of the files and what is in each one. This could also point to a CSV table with that info.
+    |
+    |-Video 1
+    |-Video 2
+    | etc....
+```
+
 Remember, each piece of information is a note to two sets of people. Well, three. The first is Jarrett in the future so that he can make sense of things long after you are gone. The second is the poor students and techs who have to make sense of things long after you are gone. Pity them. The final, and most important, is future you. You might want this information! Maybe you need it in manuscript revisions. Maybe you need it because of a committee member note. Maybe it's 20 years from now and you remember, oh wait, I have an image or video from somewhere that will unlock something I never even thought of at that time. 
 
 In this lab, we try and abide by the [old addage](https://ascii.textfiles.com/archives/3181) "Metadata is a love note to your future self." Make it [useful](https://theanarchivist.medium.com/metadata-is-a-love-note-to-the-future-138bd5fc0e76).

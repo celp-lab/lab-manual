@@ -318,6 +318,22 @@ ul.task-list li input[type="checkbox"] {
 <p>There are two main top-level directories that you will see on beefspace. The first is Working. If you are uploading new files, this is the place. The second is Archive. Once a project’s files are uploaded and QA/QC-ed, they will be moved to a parallel directory in Archive. Only Jarrett and relevant project managers have write access to archive in order to ensure files cannot be accidentally deleted.</p>
 <p>Each main directory follows the same structure. At the top-level, there should be a folder for a whole project (e.g., <code>Stone Living Lab Living Seawalls</code>). There is a top-level <code>Readme.md</code> file. In this file, using <a href="https://commonmark.org/help/">markdown</a> describe what is the general contents of each top-level project folder.</p>
 <p>Within a project folder, organize as needed. There should also be a <code>Readme.md</code> written in markdown that describes what is in each subfolder. Each sub-folder should follow a logical order with a descriptive name and have it’s own <code>Readme.md</code> that describes what is inside of it. This is not done to be annoying, but rather to make sure there is a record of what is there. This information will be moved to archive as well, and we want to make sure we have full documentation of what files and directories are, any naming conventions, and as much descriptive metadata as possible.</p>
+<p>So, this will end up looking something like</p>
+<pre><code>Archived
+&nbsp;|
+&nbsp;| - Readme.md - this will have information about what is in ALL subdirectories. Detailed
+&nbsp;|
+&nbsp;|- Project 1 (e.g., Living Seawalls)
+&nbsp;&nbsp;&nbsp;&nbsp;|
+&nbsp;&nbsp;&nbsp;&nbsp;| - Readme.md - a list of what all survey or other subfolders are and what infromation is in them
+&nbsp;&nbsp;&nbsp;&nbsp;|
+&nbsp;&nbsp;&nbsp;&nbsp;|- Survey 1 (e.g., 20260615_Condor_East_Videos)
+&nbsp;&nbsp;&nbsp;&nbsp;|
+&nbsp;&nbsp;&nbsp;&nbsp;|- Readme.md - A manifest of the files and what is in each one. This could also point to a CSV table with that info.
+&nbsp;&nbsp;&nbsp;&nbsp;|
+&nbsp;&nbsp;&nbsp;&nbsp;|-Video 1
+&nbsp;&nbsp;&nbsp;&nbsp;|-Video 2
+&nbsp;&nbsp;&nbsp;&nbsp;| etc....</code></pre>
 <p>Remember, each piece of information is a note to two sets of people. Well, three. The first is Jarrett in the future so that he can make sense of things long after you are gone. The second is the poor students and techs who have to make sense of things long after you are gone. Pity them. The final, and most important, is future you. You might want this information! Maybe you need it in manuscript revisions. Maybe you need it because of a committee member note. Maybe it’s 20 years from now and you remember, oh wait, I have an image or video from somewhere that will unlock something I never even thought of at that time.</p>
 <p>In this lab, we try and abide by the <a href="https://ascii.textfiles.com/archives/3181">old addage</a> “Metadata is a love note to your future self.” Make it <a href="https://theanarchivist.medium.com/metadata-is-a-love-note-to-the-future-138bd5fc0e76">useful</a>.</p>
 </section>
