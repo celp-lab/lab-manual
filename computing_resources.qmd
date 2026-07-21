@@ -33,6 +33,7 @@ Within a project folder, organize as needed. There should also be a `Readme.md` 
 
 So, this will end up looking something like
 
+<pre><code style="white-space: pre-wrap !important; ">
 ```
 Archived
  |
@@ -50,6 +51,7 @@ Archived
     |-Video 2
     | etc....
 ```
+</code></pre>
 
 Remember, each piece of information is a note to two sets of people. Well, three. The first is Jarrett in the future so that he can make sense of things long after you are gone. The second is the poor students and techs who have to make sense of things long after you are gone. Pity them. The final, and most important, is future you. You might want this information! Maybe you need it in manuscript revisions. Maybe you need it because of a committee member note. Maybe it's 20 years from now and you remember, oh wait, I have an image or video from somewhere that will unlock something I never even thought of at that time. 
 
