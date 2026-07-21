@@ -7,3 +7,5 @@ We recognize that fieldwork has inherent risks. First and foremost, no data poin
 In terms of specifics, we do not boat during a small-craft advisory unless there is some reason that the conditions are not relevant. We do not work where we can be exposed to the waters of Boston Harbor until at least 2 days after a rain storm. If there is heavy rain, flooding, hurricanes, or other weather-related which can affect field sites or access, DO NOT GO.
 
 Safety first. Then data.
+
+For all research project, EH&S asks that you fill out and submit a [project safety plan](https://www.umb.edu/media/umassboston/content-assets/ehs/pdf/Field_Research_Safety_Plan.pdf) as part of this effort.

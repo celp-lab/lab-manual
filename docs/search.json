@@ -94,7 +94,7 @@
     "href": "lab_communication.html",
     "title": "8  Communication Tools",
     "section": "",
-    "text": "8.1 Slack\nSlack is our primary tool of communication within the lab. We also use it to archive data sheets, share papers, funding opportunities, places to eat, food adventures, and more. email Jarrett (jarrett.byrnes at umb dot edu) for an invite or, if you have one, go here.",
+    "text": "8.1 Slack\nSlack is our primary tool of communication within the lab. We also use it to archive data sheets, share papers, funding opportunities, places to eat, food adventures, and more. Email Jarrett (jarrett.byrnes at umb dot edu) for an invite or, if you have one, go here.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Communication Tools</span>"
     ]
@@ -174,7 +174,7 @@
     "href": "data_management.html",
     "title": "20  Data Management",
     "section": "",
-    "text": "21 Open Data Policy\nOpen data is the key to scientific reproducibility and synthesis for the advancement of knowledge. All data collected by CELP Lab members must be open at time of publication of manuscripts or within two years of completion of your time in this lab. We suggest using The Knowledge Network for Biocomplexity, Temperate Reefbase, Data Dryad, or other appropriate LTER or other repository for your data, as there it must not only meet their quality standards by also have the appropriate meta-data for re-use. All publications must include the DOI and reference to the data. All data, when released, must meet FAIR (Findability, Accessibility, Interoperability, and Reuse) principles.\nSimilarly, all code must be made public at time of publication so that your work is fully reproducible. We suggest using GitHub and, at time of publication, making a formal code release so that you can get a DOI that can be referenced in the manuscript in addition to including it as a code supplement.\nWhen possible, develop your data and code in the open! Again, we highly recommend GitHub.",
+    "text": "21 Open Data Policy\nOpen data is the key to scientific reproducibility and synthesis for the advancement of knowledge. All data collected by CELP Lab members must be open at time of publication of manuscripts or within two years of completion of your time in this lab. We suggest using The Environmental Data Initiative (preferred), The Knowledge Network for Biocomplexity, Temperate Reefbase, Data Dryad, or other appropriate LTER or other repository for your data, as there it must not only meet their quality standards by also have the appropriate meta-data for re-use. All publications must include the DOI and reference to the data. All data, when released, must meet FAIR (Findability, Accessibility, Interoperability, and Reuse) principles.\nSimilarly, all code must be made public at time of publication so that your work is fully reproducible. We suggest using GitHub and, at time of publication, making a formal code release via Zenodo which seamlessly links to GitHub so that you can get a DOI that can be referenced in the manuscript in addition to including it as a code supplement.\nWhen possible, develop your data and code in the open! Again, we highly recommend GitHub.",
     "crumbs": [
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>Data Management</span>"
     ]
@@ -184,9 +184,79 @@
     "href": "places_we_eat.html",
     "title": "22  Places We Eat",
     "section": "",
-    "text": "Food is an important part of lab culture. Recipes, restaurants, holes in the wall - you name it, we’re on it. Here are some collections of places we love.\n\nBa Le - Vietnamese bakery close to campus. A lab staple.",
+    "text": "22.1 Roast Beef\nFood is an important part of lab culture. Recipes, restaurants, holes in the wall - you name it, we’re on it. Here are some collections of places we love.\nOver the years, the lab has made it a point of necessity to delve deeply into the world of the Massachusetts delicacy known as the North Shore Roast Beef. Whether Greek or Three Way, it’s the New England answer to the post-dive Burrito of the West Coast. Here are some of our favorites:\nLondi’s in Peabody\nChristina’s in Peabody\nJamie’s in Salem\nPete’s in Woburn\nTostimo’s in Portsmouth and Seabrook",
     "crumbs": [
       "<span class='chapter-number'>22</span>  <span class='chapter-title'>Places We Eat</span>"
+    ]
+  },
+  {
+    "objectID": "computing_resources.html",
+    "href": "computing_resources.html",
+    "title": "18  Computing Resources for the Lab",
+    "section": "",
+    "text": "18.1 Lab Dropbox\nUpon joining the lab, contact Jarrett to get a Dropbox account. You have unlimited storage there. Use it as you need, and share with collaborators as needed. All lab projects should have a top-level drive in the CELP Lab shared folder. We use dropbox as a lab because it is secure, robust, and when you leave the lab and your university account is terminated, your files will not disappear.\nYou should set up the Dropbox Desktop App on your computer so that your dropbox and the lab dropbox will be mounted just as another drive/folder on your computer. This is also setup on all lab computers with a lab login (where you can use the lab shared folder).",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Computing Resources for the Lab</span>"
+    ]
+  },
+  {
+    "objectID": "computing_resources.html#google-drive-useful-but-beware",
+    "href": "computing_resources.html#google-drive-useful-but-beware",
+    "title": "18  Computing Resources for the Lab",
+    "section": "18.2 Google Drive: Useful but beware",
+    "text": "18.2 Google Drive: Useful but beware\nThe university gives us Google Drive accounts with unlimited storage. These are useful, but, beware. When you leave the university, and your account is terminated, all files you have created will disappear. Whenever possibl.e\nYou should set up the Google Drive Desktop App on your computer so that you can use Google Drive just as another drive/folder on your computer and not have to deal with its web interface.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Computing Resources for the Lab</span>"
+    ]
+  },
+  {
+    "objectID": "computing_resources.html#file-storage-and-archiving-via-beefspace",
+    "href": "computing_resources.html#file-storage-and-archiving-via-beefspace",
+    "title": "18  Computing Resources for the Lab",
+    "section": "18.3 File Storage and Archiving via Beefspace",
+    "text": "18.3 File Storage and Archiving via Beefspace\n\nAll lab long-term archiving of large files - images, videos, rasters, etc. should take place using the lab file server, beefspace. beefspace can only be access via a wired connection on campus or on a VPN connection. This means if you are on campus and are on the campus wireless network, you will still need to login to the campus VPN.\nInstructions for setting up your computer to connect to the campus VPN can be found here.\nThere is a lab account for the computers in the lab. For grad students or techs who need more access (e.g., off campus), contact Jarrett for a username and password or the lab login.\nOnce you have an account and are on the proper network, you can connect to beefspace via its samba server to mount a drive on your computer. You will have to login with your username and password.\nThere are two main top-level directories that you will see on beefspace. The first is Working. If you are uploading new files, this is the place. The second is Archive. Once a project’s files are uploaded and QA/QC-ed, they will be moved to a parallel directory in Archive. Only Jarrett and relevant project managers have write access to archive in order to ensure files cannot be accidentally deleted.\nEach main directory follows the same structure. At the top-level, there should be a folder for a whole project (e.g., Stone Living Lab Living Seawalls). There is a top-level Readme.md file. In this file, using markdown describe what is the general contents of each top-level project folder.\nWithin a project folder, organize as needed. There should also be a Readme.md written in markdown that describes what is in each subfolder. Each sub-folder should follow a logical order with a descriptive name and have it’s own Readme.md that describes what is inside of it. This is not done to be annoying, but rather to make sure there is a record of what is there. This information will be moved to archive as well, and we want to make sure we have full documentation of what files and directories are, any naming conventions, and as much descriptive metadata as possible.\nRemember, each piece of information is a note to two sets of people. Well, three. The first is Jarrett in the future so that he can make sense of things long after you are gone. The second is the poor students and techs who have to make sense of things long after you are gone. Pity them. The final, and most important, is future you. You might want this information! Maybe you need it in manuscript revisions. Maybe you need it because of a committee member note. Maybe it’s 20 years from now and you remember, oh wait, I have an image or video from somewhere that will unlock something I never even thought of at that time.\nIn this lab, we try and abide by the old addage “Metadata is a love note to your future self.” Make it useful.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Computing Resources for the Lab</span>"
+    ]
+  },
+  {
+    "objectID": "computing_resources.html#high-performance-computing",
+    "href": "computing_resources.html#high-performance-computing",
+    "title": "18  Computing Resources for the Lab",
+    "section": "18.5 High Performance Computing",
+    "text": "18.5 High Performance Computing\nWe have access to many HPC resources as part of UMB. Our research computing staff is amazing and incredibly helpful. Below are some options for HPC.\n\n18.5.1 Chimera, Gibbs, and Other On Campus Options\nOn campus, we have two clusters. Chimera serves most needs for HPC and has access via ssh and other options. Gibbs is an older GPU-based cluster. For both, see the documentation about use by our research computing staff.\nTo get access, contact research.computing@umb.edu (%20research.computing at umb dot edu) who will set you up, and also put you on a list for training classes.\n\n\n18.5.2 Unity\nFor more intensive High Performance Computing, the UMass System provides a larger HPC platform, Unity. You can request access and once you have an account, opt to join the pi group headed by jarrett_byrnes_umb_edu.\nWe also highly recommend you join the unity slack channel. For further questions on access and setup, contact research.computing@umb.edu (%20research.computing at umb dot edu) who will point you in the right direction.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Computing Resources for the Lab</span>"
+    ]
+  },
+  {
+    "objectID": "computing_resources.html#remote-access-to-r-and-publishing-shiny-apps",
+    "href": "computing_resources.html#remote-access-to-r-and-publishing-shiny-apps",
+    "title": "18  Computing Resources for the Lab",
+    "section": "18.4 Remote Access to R and Publishing Shiny Apps",
+    "text": "18.4 Remote Access to R and Publishing Shiny Apps\nIf you would like a remote R server, you will need an account on Theia which runs a remote instance RStudio. You can also put up shiny apps and more if you create a directory ~/ShinyApps and make a folder for each project. These can be viewed using your username using a standard format - https://theia.umb.edu/shiny/u/user.name/ - such as https://theia.umb.edu/shiny/u/jarrett.byrnes/.\nTo get access, contact research.computing@umb.edu (%20research.computing at umb dot edu).",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Computing Resources for the Lab</span>"
+    ]
+  },
+  {
+    "objectID": "data_sources.html#lab-data",
+    "href": "data_sources.html#lab-data",
+    "title": "17  Data Sources",
+    "section": "17.5 Lab Data",
+    "text": "17.5 Lab Data\n\n17.5.1",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Data Sources</span>"
+    ]
+  },
+  {
+    "objectID": "diving.html",
+    "href": "diving.html",
+    "title": "14  SCUBA Diving",
+    "section": "",
+    "text": "The UMB Research Dive Safety program, with all forms, is located here under Diving Research & Safety Program.\nTo file a dive plan, see here.\nTo log dives, see here",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>SCUBA Diving</span>"
     ]
   }
 ]

@@ -3,3 +3,5 @@
 This is a the lab manual for the Coastal Ecology for a Living Planet Lab. In it are policies, resources, collected wisdom, and more for reference.
 
 The purpose of this lab manual are to both help new folk in the lab as well as provide a backstop to "wait, what's our lab take on this problem..." kinds of problems. Here in the CELP lab we're engaged in a wide diversity of research endeavors, from fins-in-the-water field ecology to pure computational data science. We have folk from high school students to postdocs and visiting researchers. This manual should fill in gaps for all. And if there is a question unanswered or a new piece of knowledge to be shared, feel free to edit the appropriate page on github or [email Jarrett](mailto: jarrett.byrnes@umb.edu) to get the right info in the right place!
+
+![](initial_logo.JPG)

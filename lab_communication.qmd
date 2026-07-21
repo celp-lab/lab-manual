@@ -2,7 +2,7 @@
 
 
 ## Slack
-Slack is our primary tool of communication within the lab. We also use it to archive data sheets, share papers, funding opportunities, places to eat, food adventures, and more. [email Jarrett](mailto:jarrett.byrnes@umb.edu) for an invite or, if you have one, go [here](http://byrneslab.slack.com/).
+Slack is our primary tool of communication within the lab. We also use it to archive data sheets, share papers, funding opportunities, places to eat, food adventures, and more. [Email Jarrett](mailto:jarrett.byrnes@umb.edu) for an invite or, if you have one, go [here](http://byrneslab.slack.com/).
 
 ## Email
 - All lab members can be reached by everyone@byrneslab.net

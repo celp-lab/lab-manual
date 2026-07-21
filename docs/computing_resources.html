@@ -259,8 +259,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#lab-dropbox" id="toc-lab-dropbox" class="nav-link active" data-scroll-target="#lab-dropbox"><span class="header-section-number">18.1</span> Lab Dropbox</a></li>
+  <li><a href="#google-drive-useful-but-beware" id="toc-google-drive-useful-but-beware" class="nav-link" data-scroll-target="#google-drive-useful-but-beware"><span class="header-section-number">18.2</span> Google Drive: Useful but beware</a></li>
+  <li><a href="#file-storage-and-archiving-via-beefspace" id="toc-file-storage-and-archiving-via-beefspace" class="nav-link" data-scroll-target="#file-storage-and-archiving-via-beefspace"><span class="header-section-number">18.3</span> File Storage and Archiving via Beefspace</a></li>
+  <li><a href="#remote-access-to-r-and-publishing-shiny-apps" id="toc-remote-access-to-r-and-publishing-shiny-apps" class="nav-link" data-scroll-target="#remote-access-to-r-and-publishing-shiny-apps"><span class="header-section-number">18.4</span> Remote Access to R and Publishing Shiny Apps</a></li>
+  <li><a href="#high-performance-computing" id="toc-high-performance-computing" class="nav-link" data-scroll-target="#high-performance-computing"><span class="header-section-number">18.5</span> High Performance Computing</a>
+  <ul class="collapse">
+  <li><a href="#chimera-gibbs-and-other-on-campus-options" id="toc-chimera-gibbs-and-other-on-campus-options" class="nav-link" data-scroll-target="#chimera-gibbs-and-other-on-campus-options"><span class="header-section-number">18.5.1</span> Chimera, Gibbs, and Other On Campus Options</a></li>
+  <li><a href="#unity" id="toc-unity" class="nav-link" data-scroll-target="#unity"><span class="header-section-number">18.5.2</span> Unity</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -284,8 +298,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="lab-dropbox" class="level2" data-number="18.1">
+<h2 data-number="18.1" class="anchored" data-anchor-id="lab-dropbox"><span class="header-section-number">18.1</span> Lab Dropbox</h2>
+<p>Upon joining the lab, contact Jarrett to get a <a href="https://www.dropbox.com">Dropbox</a> account. You have unlimited storage there. Use it as you need, and share with collaborators as needed. All lab projects should have a top-level drive in the <code>CELP Lab shared folder</code>. We use dropbox as a lab because it is secure, robust, and when you leave the lab and your university account is terminated, your files will not disappear.</p>
+<p>You should set up the <a href="https://www.dropbox.com/install">Dropbox Desktop App</a> on your computer so that your dropbox and the lab dropbox will be mounted just as another drive/folder on your computer. This is also setup on all lab computers with a lab login (where you can use the lab shared folder).</p>
+</section>
+<section id="google-drive-useful-but-beware" class="level2" data-number="18.2">
+<h2 data-number="18.2" class="anchored" data-anchor-id="google-drive-useful-but-beware"><span class="header-section-number">18.2</span> Google Drive: Useful but beware</h2>
+<p>The university gives us Google Drive accounts with unlimited storage. These are useful, but, beware. When you leave the university, and your account is terminated, all files you have created will disappear. Whenever possibl.e</p>
+<p>You should set up the <a href="https://support.google.com/a/users/answer/13022292?hl=en">Google Drive Desktop App</a> on your computer so that you can use Google Drive just as another drive/folder on your computer and not have to deal with its web interface.</p>
+</section>
+<section id="file-storage-and-archiving-via-beefspace" class="level2" data-number="18.3">
+<h2 data-number="18.3" class="anchored" data-anchor-id="file-storage-and-archiving-via-beefspace"><span class="header-section-number">18.3</span> File Storage and Archiving via Beefspace</h2>
+<p><img src="beefspace.png" class="img-fluid"></p>
+<p>All lab long-term archiving of large files - images, videos, rasters, etc. should take place using the lab file server, beefspace. beefspace can only be access via a wired connection on campus or on a VPN connection. This means if you are on campus and are on the campus wireless network, you will still need to login to the campus VPN.</p>
+<p>Instructions for setting up your computer to connect to the campus VPN can be found <a href="https://umassboston.service-now.com/sp?id=kb_article_view&amp;sysparm_article=KB0010685&amp;sys_kb_id=bde423a21be0e51078b5a6ca234bcbcc&amp;spa=1">here</a>.</p>
+<p>There is a lab account for the computers in the lab. For grad students or techs who need more access (e.g., off campus), contact Jarrett for a username and password or the lab login.</p>
+<p>Once you have an account and are on the proper network, you can connect to beefspace via its samba server to mount a drive on your computer. You will have to login with your username and password.</p>
+<p>There are two main top-level directories that you will see on beefspace. The first is Working. If you are uploading new files, this is the place. The second is Archive. Once a project’s files are uploaded and QA/QC-ed, they will be moved to a parallel directory in Archive. Only Jarrett and relevant project managers have write access to archive in order to ensure files cannot be accidentally deleted.</p>
+<p>Each main directory follows the same structure. At the top-level, there should be a folder for a whole project (e.g., <code>Stone Living Lab Living Seawalls</code>). There is a top-level <code>Readme.md</code> file. In this file, using <a href="https://commonmark.org/help/">markdown</a> describe what is the general contents of each top-level project folder.</p>
+<p>Within a project folder, organize as needed. There should also be a <code>Readme.md</code> written in markdown that describes what is in each subfolder. Each sub-folder should follow a logical order with a descriptive name and have it’s own <code>Readme.md</code> that describes what is inside of it. This is not done to be annoying, but rather to make sure there is a record of what is there. This information will be moved to archive as well, and we want to make sure we have full documentation of what files and directories are, any naming conventions, and as much descriptive metadata as possible.</p>
+<p>Remember, each piece of information is a note to two sets of people. Well, three. The first is Jarrett in the future so that he can make sense of things long after you are gone. The second is the poor students and techs who have to make sense of things long after you are gone. Pity them. The final, and most important, is future you. You might want this information! Maybe you need it in manuscript revisions. Maybe you need it because of a committee member note. Maybe it’s 20 years from now and you remember, oh wait, I have an image or video from somewhere that will unlock something I never even thought of at that time.</p>
+<p>In this lab, we try and abide by the <a href="https://ascii.textfiles.com/archives/3181">old addage</a> “Metadata is a love note to your future self.” Make it <a href="https://theanarchivist.medium.com/metadata-is-a-love-note-to-the-future-138bd5fc0e76">useful</a>.</p>
+</section>
+<section id="remote-access-to-r-and-publishing-shiny-apps" class="level2" data-number="18.4">
+<h2 data-number="18.4" class="anchored" data-anchor-id="remote-access-to-r-and-publishing-shiny-apps"><span class="header-section-number">18.4</span> Remote Access to R and Publishing Shiny Apps</h2>
+<p>If you would like a remote R server, you will need an account on <a href="https://theia.umb.edu/">Theia</a> which runs a remote instance RStudio. You can also put up shiny apps and more if you create a directory <code>~/ShinyApps</code> and make a folder for each project. These can be viewed using your username using a standard format - <code>https://theia.umb.edu/shiny/u/user.name/</code> - such as <a href="https://theia.umb.edu/shiny/u/jarrett.byrnes/">https://theia.umb.edu/shiny/u/jarrett.byrnes/</a>.</p>
+<p>To get access, contact <script type="text/javascript">
+<!--
+h='&#x75;&#x6d;&#98;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#x25;&#50;&#48;&#114;&#x65;&#x73;&#x65;&#x61;&#114;&#x63;&#104;&#46;&#x63;&#x6f;&#x6d;&#112;&#x75;&#116;&#x69;&#110;&#x67;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#114;&#x65;&#x73;&#x65;&#x61;&#114;&#x63;&#104;&#46;&#x63;&#x6f;&#x6d;&#112;&#x75;&#116;&#x69;&#110;&#x67;&#64;&#x75;&#x6d;&#98;&#46;&#x65;&#100;&#x75;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>research.computing@umb.edu (%20research.computing at umb dot edu)</noscript>.</p>
+</section>
+<section id="high-performance-computing" class="level2" data-number="18.5">
+<h2 data-number="18.5" class="anchored" data-anchor-id="high-performance-computing"><span class="header-section-number">18.5</span> High Performance Computing</h2>
+<p>We have access to many HPC resources as part of UMB. Our <a href="https://www.umb.edu/rc/">research computing</a> staff is amazing and incredibly helpful. Below are some options for HPC.</p>
+<section id="chimera-gibbs-and-other-on-campus-options" class="level3" data-number="18.5.1">
+<h3 data-number="18.5.1" class="anchored" data-anchor-id="chimera-gibbs-and-other-on-campus-options"><span class="header-section-number">18.5.1</span> Chimera, Gibbs, and Other On Campus Options</h3>
+<p>On campus, we have two clusters. <a href="https://www.umb.edu/rc/hpc/chimera/">Chimera</a> serves most needs for HPC and has access via ssh and other options. <a href="https://www.umb.edu/rc/hpc/gibbs/">Gibbs</a> is an older GPU-based cluster. For both, see the <a href="https://rcdocs.umb.edu">documentation</a> about use by our research computing staff.</p>
+<p>To get access, contact <script type="text/javascript">
+<!--
+h='&#x75;&#x6d;&#98;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#x25;&#50;&#48;&#114;&#x65;&#x73;&#x65;&#x61;&#114;&#x63;&#104;&#46;&#x63;&#x6f;&#x6d;&#112;&#x75;&#116;&#x69;&#110;&#x67;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#114;&#x65;&#x73;&#x65;&#x61;&#114;&#x63;&#104;&#46;&#x63;&#x6f;&#x6d;&#112;&#x75;&#116;&#x69;&#110;&#x67;&#64;&#x75;&#x6d;&#98;&#46;&#x65;&#100;&#x75;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>research.computing@umb.edu (%20research.computing at umb dot edu)</noscript> who will set you up, and also put you on a list for training classes.</p>
+</section>
+<section id="unity" class="level3" data-number="18.5.2">
+<h3 data-number="18.5.2" class="anchored" data-anchor-id="unity"><span class="header-section-number">18.5.2</span> Unity</h3>
+<p>For more intensive High Performance Computing, the UMass System provides a larger HPC platform, <a href="https://docs.unity.rc.umass.edu">Unity</a>. You can <a href="https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Funity.rc.umass.edu%2Fpanel%2Faccount.php&amp;data=05%7C01%7CTheresa.Nelson%40umb.edu%7C373d585f82984971290908dba4b2c8a1%7Cb97188711ee94425953c1ace1373eb38%7C0%7C0%7C638284860006281503%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=bKRplGeecFwdXB5N9F9J87aV2Sx8OHcobSL9eMx9g3I%3D&amp;reserved=0">request access</a> and once you have an account, opt to join the pi group headed by <code>jarrett_byrnes_umb_edu</code>.</p>
+<p>We also highly recommend you join the unity slack channel. For further questions on access and setup, contact <script type="text/javascript">
+<!--
+h='&#x75;&#x6d;&#98;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#x25;&#50;&#48;&#114;&#x65;&#x73;&#x65;&#x61;&#114;&#x63;&#104;&#46;&#x63;&#x6f;&#x6d;&#112;&#x75;&#116;&#x69;&#110;&#x67;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#114;&#x65;&#x73;&#x65;&#x61;&#114;&#x63;&#104;&#46;&#x63;&#x6f;&#x6d;&#112;&#x75;&#116;&#x69;&#110;&#x67;&#64;&#x75;&#x6d;&#98;&#46;&#x65;&#100;&#x75;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>research.computing@umb.edu (%20research.computing at umb dot edu)</noscript> who will point you in the right direction.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
